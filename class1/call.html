@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <title>Call</title>
+    </head>
+    <body>
+        <h1>This is call method of java script.</h1>
+        <script>
+            var student = {
+                name:'Shaurya',
+                age:16,
+                qualification:12,
+                detail: function(age){
+                    console.log(`${this.name} read in class 12 and his age is ${this.age}`);
+                }
+            }
+
+            var teacher = {
+                name:'Sanchit',
+                age:44,
+                qualification:'M.C.A'
+            }
+            student.detail.call(teacher, ' living in india');
+            student.detail.bind(teacher, 'living in SA');
+
+//             alert("Hello");
+
+ ['sanchit', 2].forEach(alert);
+function test(){
+    console.log(5);
+}
+
+test();
+        </script>
+    </body>
+    <script>
+        alert('outside body');
+    </script>
+</html>

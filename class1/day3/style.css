@@ -1,0 +1,9 @@
+        /* selector {key:value} */
+        /* mainily we use id and class slector */
+        #first{color: green;} /* this is id preference is heigher then class*/
+        #ui{color:black}
+        .second{color: rgb(118, 130, 118);font-size: 25px;border: 1px solid black;}
+        p{color:yellow;border: 1px solid black;}
+        h1{color:pink; border: 1px solid black;}
+
+        
